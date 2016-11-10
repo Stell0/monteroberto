@@ -1,0 +1,13 @@
+encoding  utf-8
+
+source "monte roberto.th"
+
+export map -proj plan -layout-symbol-show group centerline -layout-debug station-names -o "monte roberto.th-pianta.pdf"
+
+export model  -o "monte roberto.th.kml"
+
+export model  -o "monte roberto.th.lox"  -enable walls -wall-source all
+
+export model  -o "monte roberto.th.dxf"
+
+export model  -o "monte roberto.th.3d"

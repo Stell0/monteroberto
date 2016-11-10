@@ -1,0 +1,116 @@
+therion 5.3.16
+initialization file: /etc/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): 0.0001
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.26
+ 2> Copyright © 1990-2016 Olly Betts
+ 3> 
+ 4> La topografia contiene 155 stazioni, unite per 154 battute.
+ 5> C’é una poligonale chiusa.
+ 6> La topografia contiene 2 componenti connesse.
+ 7> Sviluppo spaziale =  346.53m ( 346.53m corretto)
+ 8> Sviluppo planimetrico =  288.43m
+ 9> Totale delle componenti verticali delle battute =   99.11m
+10> Dislivello totale = 20.67m (da 4 a 0.01m a 111 a -20.65m)
+11> Estensione Nord-Sud = 52.81m (da 147 a 52.13m a 20 a -0.68m)
+12> Estensione Est-Ovest = 28.42m (da 135 a 166034.99m a 53 a 166006.58m)
+13>  117 1-nodi.
+14>   11 2-nodi.
+15>    1 4-nodo.
+16>   16 5-nodi.
+17>    5 6-nodi.
+18>    1 7-nodo.
+19>    1 9-nodo.
+20>    2 11-nodi.
+21>    1 17-nodo.
+22> 
+######################### transcription ########################
+ 4> 155 : -@monteroberto -- 154 : -@monteroberto
+ 6> 2 : -@monteroberto
+10> 4 : -@monteroberto -- 111 : -@monteroberto
+11> 147 : -@monteroberto -- 20 : -@monteroberto
+12> 135 : -@monteroberto -- 53 : -@monteroberto
+13> 117 : -@monteroberto
+14> 11 : 2@monteroberto
+15> 1 : 0@monteroberto
+16> 16 : -@monteroberto
+17> 5 : -@monteroberto
+18> 1 : 0@monteroberto
+19> 1 : 0@monteroberto
+20> 2 : -@monteroberto
+21> 1 : 0@monteroberto
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing monte roberto.th-pianta.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015/Debian) (kpathsea version 6.2.1)  10 NOV 2016 23:53
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
+[4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
+[1] [2] [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5283 strings using 147328 characters
+ 2761424 bytes of node memory
+ 1402 symbolic tokens
+ 8i,81n,16p,202b,5f stack positions out of 16i,96n,20p,250b,6f
+16 output files written: data.1 .. data.4012
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdfetex 2016.7.20)  10 NOV 2016 23:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 240 strings out of 497107
+ 2503 string characters out of 6206799
+ 42356 words of memory out of 5000000
+ 1467 multiletter control sequences out of 15000+600000
+ 15455 words of font info for 52 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 34126 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing monte roberto.th.kml ... done
+writing monte roberto.th.lox ... done
+writing monte roberto.th.dxf ... done
+writing monte roberto.th.3d ... done
+compilation time: 0 sec
